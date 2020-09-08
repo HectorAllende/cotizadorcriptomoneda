@@ -59,7 +59,7 @@ function submitFormulario(e){
     const {moneda, criptomoneda} = objBusqueda;
 
     if(moneda === ''|| criptomoneda ===''){
-        mostrarAlerta('Dami: ambos campos son obligatorios')
+        mostrarAlerta('Los dos campos son obligatorios')
         return;
     }
     consultarAPI();
