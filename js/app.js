@@ -112,10 +112,10 @@ function mostrarCotizacionHTML(cotizacion){
     precioAlto.innerHTML= `<p>La cotización mas alta del día fue: ${HIGHDAY}</p>`
 
     const precioBajo = document.createElement('p')
-    precioBajo.innerHTML=`<p>La cotizacion mas baja del dia fue:${LOWDAY}</p>`
+    precioBajo.innerHTML=`<p>La cotización mas baja del día fue:${LOWDAY}</p>`
 
     const variacion = document.createElement('p')
-    variacion.innerHTML=`<p> La variacion ultimas 24hs: ${CHANGEPCT24HOUR}%</p>`
+    variacion.innerHTML=`<p> La variación ultimas 24hs: ${CHANGEPCT24HOUR}%</p>`
 
     const actualizacion = document.createElement('p')
     actualizacion.innerHTML =`<P> Actualización: <span>${LASTUPDATE}</span>`
